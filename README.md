@@ -28,10 +28,9 @@ Therefore, presented the concept of Data Driven and in which scenario it applies
 
 ### Prerequisites
 
-To run this project in the development mode, you'll need to have a basic environment to run a .NET Core Application and MSSQL. The links for installing the tools are listed below.
+To run this project in the development mode, you'll need to have a basic environment to run a .NET Core Application. The link for installing the tool are listed below.
 
 [.NET Core](https://dotnet.microsoft.com/download).
-[MSSQL](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads).
 
 ### Installing
 
@@ -43,17 +42,7 @@ $ git clone https://github.com/brunoalves9698/pasturemanagement.git
 $ cd pasturemanagement
 ```
 
-**Installing dependencies**
-
-```
-$ npm install
-```
-
 ### Running
-
-With all dependencies installed and the environment properly configured, you can now run the app:
-
-Web
 
 ```
 $ dotnet run
@@ -63,5 +52,4 @@ $ dotnet run
 
 - [.NET Core 3](https://docs.microsoft.com/pt-br/dotnet/core/)
 - [EF Core 3](https://docs.microsoft.com/pt-br/ef/core/get-started/?tabs=netcore-cli)
-- [MSSQL](https://www.microsoft.com/pt-br/sql-server/sql-server-2019)
 
