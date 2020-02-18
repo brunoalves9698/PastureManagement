@@ -28,9 +28,7 @@ Therefore, presented the concept of Data Driven and in which scenario it applies
 
 ### Prerequisites
 
-To run this project in the development mode, you'll need to have a basic environment to run a .NET Core Application. The link for installing the tool are listed below.
-
-[.NET Core](https://dotnet.microsoft.com/download).
+To run this project in the development mode, you'll need to have a basic environment to run a .NET Core Application. You can get it [here](https://dotnet.microsoft.com/download).
 
 ### Installing
 
