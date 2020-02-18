@@ -7,7 +7,7 @@ namespace PastureManagement.Data
    {
       protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
       {
-         optionsBuilder.UseSqlServer(@"Server=TROJANEXE\SQLEXPRESS;DataBase=PastureManagement;Trusted_Connection=true;");
+         optionsBuilder.UseSqlServer(@"YOUR_CONNECTION_STRING");
       }
 
       public DbSet<User> Users { get; set; }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\semnome\\Desktop\\dev\\.NET Core\\PastureManagement\\PastureManagement.csproj": {}
+    "C:\\Users\\semnome\\Desktop\\dev\\.NET Core\\pasturemanagement\\PastureManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\semnome\\Desktop\\dev\\.NET Core\\PastureManagement\\PastureManagement.csproj": {
+    "C:\\Users\\semnome\\Desktop\\dev\\.NET Core\\pasturemanagement\\PastureManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\semnome\\Desktop\\dev\\.NET Core\\PastureManagement\\PastureManagement.csproj",
+        "projectUniqueName": "C:\\Users\\semnome\\Desktop\\dev\\.NET Core\\pasturemanagement\\PastureManagement.csproj",
         "projectName": "PastureManagement",
-        "projectPath": "C:\\Users\\semnome\\Desktop\\dev\\.NET Core\\PastureManagement\\PastureManagement.csproj",
+        "projectPath": "C:\\Users\\semnome\\Desktop\\dev\\.NET Core\\pasturemanagement\\PastureManagement.csproj",
         "packagesPath": "C:\\Users\\semnome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\semnome\\Desktop\\dev\\.NET Core\\PastureManagement\\obj\\",
+        "outputPath": "C:\\Users\\semnome\\Desktop\\dev\\.NET Core\\pasturemanagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

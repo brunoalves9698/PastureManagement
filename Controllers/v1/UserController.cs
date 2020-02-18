@@ -11,7 +11,6 @@ using PastureManagement.ViewModels.UserViewModels;
 namespace PastureManagement.Controllers.v1
 {
    [Route("v1/users")]
-   [Authorize]
    public class UserController : ControllerBase
    {
       private readonly UserRepository _repository;
@@ -23,6 +22,7 @@ namespace PastureManagement.Controllers.v1
 
       [HttpGet]
       [Route("{id:int}")]
+      [Authorize]
       public ActionResult<ListUserViewModel> GetById(int id)
       {
          var user = _repository.GetById(id);
@@ -31,6 +31,7 @@ namespace PastureManagement.Controllers.v1
 
       [HttpGet]
       [Route("")]
+      [Authorize]
       public ActionResult<List<ListUserViewModel>> Get()
       {
          var users = _repository.Get();
@@ -55,6 +56,7 @@ namespace PastureManagement.Controllers.v1
 
       [HttpPost]
       [Route("change-password/{id:int}")]
+      [Authorize]
       public ActionResult ChangePassword(int id, [FromBody] ChangePasswordViewModel changePasswordViewModel)
       {
          if (id != changePasswordViewModel.Id)
@@ -90,6 +92,7 @@ namespace PastureManagement.Controllers.v1
 
       [HttpPut]
       [Route("{id:int}")]
+      [Authorize]
       public ActionResult<ListUserViewModel> Put(int id, [FromBody]User user)
       {
          if (id != user.Id)
@@ -116,6 +119,7 @@ namespace PastureManagement.Controllers.v1
 
       [HttpDelete]
       [Route("{id:int}")]
+      [Authorize]
       public ActionResult Delete(int id, [FromServices]DataContext context)
       {
          try
