@@ -24,11 +24,6 @@ Therefore, presented the concept of Data Driven and in which scenario it applies
   - Authentication
   - Authorization with JWT (JSON Web Token)
   
-## Built With
-
-- [.NET Core 3](https://docs.microsoft.com/pt-br/dotnet/core/)
-- [EF Core 3](https://docs.microsoft.com/pt-br/ef/core/get-started/?tabs=netcore-cli)
-  
 ## Getting Started
 
 ### Prerequisites
@@ -59,5 +54,8 @@ $ dotnet ef database update
 $ dotnet run
 ```
 
+## Built With
 
+- [.NET Core 3](https://docs.microsoft.com/pt-br/dotnet/core/)
+- [EF Core 3](https://docs.microsoft.com/pt-br/ef/core/get-started/?tabs=netcore-cli)
 
