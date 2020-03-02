@@ -40,6 +40,14 @@ $ git clone https://github.com/brunoalves9698/pasturemanagement.git
 $ cd pasturemanagement
 ```
 
+### Creating DataBase
+
+```
+$ dotnet ef migrations add FisrMigration
+
+$ dotnet ef database update
+```
+
 ### Running
 
 ```
